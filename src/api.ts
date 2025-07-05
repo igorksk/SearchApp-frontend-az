@@ -1,6 +1,6 @@
 import { Person } from './types';
 
-const API_URL = 'http://localhost:7091/api';
+const API_URL = 'https://search-app-bpbdcpfxcdcebvfr.canadacentral-01.azurewebsites.net/api';
 
 export const fetchPeople = async (): Promise<Person[]> => {
   const response = await fetch(`${API_URL}/people`);
