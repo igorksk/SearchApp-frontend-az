@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Container, TextField, Button, Box, Dialog, DialogTitle, DialogContent, DialogActions, Typography } from '@mui/material';
+import { Container, TextField, Button, Box, Dialog, DialogTitle, DialogContent, DialogActions } from '@mui/material';
 import PersonCard from './components/PersonCard';
 import { Person } from './types';
 import { fetchPeople, searchPeople, deletePerson, addPerson } from './api';
